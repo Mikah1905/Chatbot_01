@@ -5,6 +5,7 @@ while True:
     req = int(input('tambah tambahan : ', ))
     Nilai += req
     if req < 0:
-        Break
+        Nilai -= req
+        break
 
 print('hasil : ', Nilai)
